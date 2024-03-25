@@ -1,0 +1,79 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.sunflower {
+    width: 200px;
+    height: 200px;
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    position: relative;
+}
+
+.flower {
+    width: 100px;
+    height: 100px;
+    background-image: url("https://assets.codepen.io/310596/sunflower.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.petals {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.petal {
+    width: 20px;
+    height: 100px;
+    background-color: #ffeb3b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.petal:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.petal:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.petal:nth-child(3) {
+    transform: rotate(90deg);
+}
+
+.petal:nth-child(4) {
+    transform: rotate(135deg);
+}
+
+.petal:nth-child(5) {
+    transform: rotate(180deg);
+}
+
+.petal:nth-child(6) {
+    transform: rotate(225deg);
+}
+
+.petal:nth-child(7) {
+    transform: rotate(270deg);
+}
+
+.petal:nth-child(8) {
+    transform: rotate(315deg);
+}
